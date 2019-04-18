@@ -9,7 +9,7 @@ struct process
 	int flag;  //for delimiter
 }process_list[100]; //object array of structure
 
-void Arrange()  // function arranges process and swaps as per ARRIVAL TIME
+void Arrange()  // function arranges process and swaps as per burst TIME
 {
 	struct process p;
 	int i,j;
